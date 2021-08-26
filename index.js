@@ -183,18 +183,18 @@ $("#allClear").on("click", function () {
 
 $("#sample1").on("click",function () {
     const sample1 = new Image();
-    sample1.src = "/img/poo.gif";
+    sample1.src = "img/poo.gif";
     context.drawImage(sample1, 0, 0, canvas.width, canvas.height);
   })
 
   $("#sample2").on("click",function () {
     const sample1 = new Image();
-    sample1.src = "/img/poo1.png";
+    sample1.src = "img/poo1.png";
     context.drawImage(sample1, 0, 0, canvas.width, canvas.height);
   })
 
   $("#sample3").on("click",function () {
     const sample1 = new Image();
-    sample1.src = "/img/poo2.jpg";
+    sample1.src = "img/poo2.jpg";
     context.drawImage(sample1, 0, 0, canvas.width, canvas.height);
   })
