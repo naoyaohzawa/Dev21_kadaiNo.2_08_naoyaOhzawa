@@ -183,7 +183,7 @@ $("#allClear").on("click", function () {
 
 $("#sample1").on("click",function () {
     const sample1 = new Image();
-    sample1.src = "/img/poo.gif";
+    sample1.src = "img/poo.gif";
     context.drawImage(sample1, 0, 0, canvas.width, canvas.height);
   })
 
